@@ -8,7 +8,7 @@ public class Main {
         jack.defense = 70;
         jack.intelligence = 12;
 
-        System.out.println(jack);
+
         System.out.println("This fighter's name is " + jack.name + ". Strength: "+ jack.strength + ". Defense: " + jack.defense +
                 ". Intelligence: " + jack.intelligence + ". A brawny fellow.");
 
@@ -22,10 +22,7 @@ public class Main {
         jason.defense = 50;
         jason.intelligence = 20;
 
-        System.out.println(jason);
 
-        System.out.println("This fighter's name is " + jason.name + ". Strength: "+ jason.strength + ". Defense: " + jason.defense +
-                ". Intelligence: " + jason.intelligence + ". Excels in power.");
 
         Monk adrian = new Monk();
 
@@ -34,10 +31,10 @@ public class Main {
         adrian.defense = 30;
         adrian.intelligence = 80;
 
-        System.out.println(adrian);
 
         System.out.println("This monk's name is " + adrian.name + ". Strength: "+ adrian.strength + ". Defense: " + adrian.defense +
                 ". Intelligence: " + adrian.intelligence + ". Knows what he's doing.");
+
 
         Monk caine = new Monk();
 
@@ -46,10 +43,6 @@ public class Main {
         caine.defense = 60;
         caine.intelligence = 60;
 
-        System.out.println(caine);
-
-        System.out.println("This monk's name is " + caine.name + ". Strength: "+ caine.strength + ". Defense: " + caine.defense +
-                ". Intelligence: " + caine.intelligence + ". Can take a hit.");
 
 
         Thief chris = new Thief();
@@ -59,7 +52,7 @@ public class Main {
         chris.defense = 20;
         chris.intelligence = 70;
 
-        System.out.println(chris);
+
 
         System.out.println("This thief's name is " + chris.name + ". Strength: "+ chris.strength + ". Defense: " + chris.defense +
                 ". Intelligence: " + chris.intelligence + ". Sneaky.");
@@ -72,12 +65,6 @@ public class Main {
         danny.defense = 30;
         danny.intelligence = 80;
 
-        System.out.println(danny);
-
-        System.out.println("This thief's name is " + danny.name + ". Strength: "+ danny.strength + ". Defense: " + danny.defense +
-        ". Intelligence: " + danny.intelligence + ". Likes planning heists.");
-
-
 
 
         Wizard meg = new Wizard();
@@ -86,8 +73,6 @@ public class Main {
         meg.strength = 10;
         meg.defense = 10;
         meg.intelligence = 140;
-
-        System.out.println(meg);
 
 
         System.out.println("This wizard's name is " + meg.name + ". Strength: "+ meg.strength + ". Defense: " + meg.defense +
@@ -100,10 +85,10 @@ public class Main {
         corbett.defense = 50;
         corbett.intelligence = 60;
 
-        System.out.println(corbett);
 
         System.out.println("This wizard's name is " + corbett.name + ". Strength: "+ corbett.strength + ". Defense: " + corbett.defense +
                 ". Intelligence: " + corbett.intelligence + ". In the wrong job.");
+
 
 
         Cat mukluk = new Cat();
@@ -112,9 +97,6 @@ public class Main {
         mukluk.strength = 7;
         mukluk.defense = 8;
         mukluk.intelligence = 3;
-
-        System.out.println(mukluk);
-
 
         System.out.println("This cat's name is " + mukluk.name + ". Strength: "+ mukluk.strength + ". Defense: " + mukluk.defense +
                 ". Intelligence: " + mukluk.intelligence + ". A housecat that follows the group around.");
@@ -126,7 +108,6 @@ public class Main {
         pepper.defense = 30;
         pepper.intelligence = 10;
 
-        System.out.println(pepper);
 
         System.out.println("This cat's name is " + pepper.name + ". Strength: "+ pepper.strength + ". Defense: " + pepper.defense +
                 ". Intelligence: " + pepper.intelligence + ". 'Biggest housecat I've ever seen' - Jack.");
@@ -134,16 +115,13 @@ public class Main {
 
 
 
-
-        jason.name = "Jason";
         jason.strength = 120;
         jason.defense = 70;
         jason.intelligence = 25;
 
-        System.out.println(jason);
-
         System.out.println("This fighter's name is " + jason.name + ". Strength: "+ jason.strength + ". Defense: " + jason.defense +
                 ". Intelligence: " + jason.intelligence + ". Really excels in power.");
+
 
 
         caine.name = "Caine";
@@ -151,40 +129,40 @@ public class Main {
         caine.defense = 80;
         caine.intelligence = 70;
 
-        System.out.println(caine);
+
 
         System.out.println("This monk's name is " + caine.name + ". Strength: "+ caine.strength + ". Defense: " + caine.defense +
                 ". Intelligence: " + caine.intelligence + ". Can take several hits.");
+
 
         danny.name = "Danny";
         danny.strength = 30;
         danny.defense = 60;
         danny.intelligence = 100;
 
-        System.out.println(danny);
 
         System.out.println("This thief's name is " + danny.name + ". Strength: "+ danny.strength + ". Defense: " + danny.defense +
                 ". Intelligence: " + danny.intelligence + ". Likes planning heists and sieges.");
+
 
         corbett.name = "Corbett";
         corbett.strength = 80;
         corbett.defense = 80;
         corbett.intelligence = 80;
 
-        System.out.println(corbett);
 
         System.out.println("This wizard's name is " + corbett.name + ". Strength: "+ corbett.strength + ". Defense: " + corbett.defense +
                 ". Intelligence: " + corbett.intelligence + ". Casts 'fist'.");
+
+
 
         pepper.name = "Pepper";
         pepper.strength = 40;
         pepper.defense = 40;
         pepper.intelligence = 15;
 
-        System.out.println(pepper);
-
         System.out.println("This cat's name is " + pepper.name + ". Strength: "+ pepper.strength + ". Defense: " + pepper.defense +
-                ". Intelligence: " + pepper.intelligence + ". 'Turns out it was a panther all along!' - Jack.");
+                ". Intelligence: " + pepper.intelligence + ". 'I don't think this is actually a cat.' - Jack.");
 
 
     }
