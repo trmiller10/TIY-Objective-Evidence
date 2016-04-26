@@ -6,12 +6,12 @@ public class Main {
         //assign values to properties
         jack.name = "Jack";
         jack.strength = 80;
-        jack.defense = 70;
-        jack.intelligence = 12;
+        jack.axeMastery = 70;
+        jack.intelligenceQuota = 12;
 
         //print out description using properties
-        System.out.println("This fighter's name is " + jack.name + ". Strength: "+ jack.strength + ". Defense: " + jack.defense +
-                ". Intelligence: " + jack.intelligence + ". A brawny fellow.");
+        System.out.println("This fighter's name is " + jack.name + ". Strength: "+ jack.strength + ". Axe Mastery: " + jack.axeMastery +
+                ". Intelligence Quota: " + jack.intelligenceQuota + ". A brawny fellow.");
 
 
 
@@ -20,89 +20,89 @@ public class Main {
         //assign values to properties
         jason.name = "Jason";
         jason.strength = 90;
-        jason.defense = 50;
-        jason.intelligence = 20;
+        jason.axeMastery = 50;
+        jason.intelligenceQuota = 20;
 
 
         //initializes new monk
         Monk adrian = new Monk();
         //assign values to properties
         adrian.name = "Adrian";
-        adrian.strength = 10;
-        adrian.defense = 30;
-        adrian.intelligence = 80;
+        adrian.brawniness = 10;
+        adrian.purity = true;
+        adrian.healingPower = 80;
 
         //print out description using properties
-        System.out.println("This monk's name is " + adrian.name + ". Strength: "+ adrian.strength + ". Defense: " + adrian.defense +
-                ". Intelligence: " + adrian.intelligence + ". Knows what he's doing.");
+        System.out.println("This monk's name is " + adrian.name + ". Brawniness: "+ adrian.brawniness + ". Purity: " + adrian.purity +
+                ". Healing Power: " + adrian.healingPower + ". Knows what he's doing.");
 
         //initializes new monk
         Monk caine = new Monk();
         //assign values to properties
         caine.name = "Caine";
-        caine.strength = 20;
-        caine.defense = 60;
-        caine.intelligence = 60;
+        caine.brawniness = 20;
+        caine.purity = false;
+        caine.healingPower = 60;
 
 
         //initializes new thief
         Thief chris = new Thief();
         //assign values to properties
         chris.name = "Chris";
-        chris.strength = 50;
-        chris.defense = 20;
-        chris.intelligence = 70;
+        chris.resistance = 50;
+        chris.armorRating = 20;
+        chris.movementSpeed = 70;
 
 
         //print out description using properties
-        System.out.println("This thief's name is " + chris.name + ". Strength: "+ chris.strength + ". Defense: " + chris.defense +
-                ". Intelligence: " + chris.intelligence + ". Sneaky.");
+        System.out.println("This thief's name is " + chris.name + ". Resistance: "+ chris.resistance + ". Armor Rating: " + chris.armorRating +
+                ". Movement Speed: " + chris.movementSpeed + ". Sneaky.");
 
         //initializes new thief
         Thief danny = new Thief();
         //assign values to properties
         danny.name = "Danny";
-        danny.strength = 30;
-        danny.defense = 30;
-        danny.intelligence = 80;
+        danny.resistance = 30;
+        danny.armorRating = 30;
+        danny.movementSpeed = 80;
 
 
         //initializes new wizard
         Wizard meg = new Wizard();
         //assign values to properties
         meg.name = "Meg";
-        meg.strength = 10;
-        meg.defense = 10;
-        meg.intelligence = 140;
+        meg.selfRestraint = 10;
+        meg.senseOfMorals = 10;
+        meg.destructiveness = 140;
 
         //print out description using properties
-        System.out.println("This wizard's name is " + meg.name + ". Strength: "+ meg.strength + ". Defense: " + meg.defense +
-                ". Intelligence: " + meg.intelligence + ". An expert at blowing stuff up.");
+        System.out.println("This wizard's name is " + meg.name + ". Self-Restraint: "+ meg.selfRestraint + ". Sense of Morality: " + meg.senseOfMorals +
+                ". Destructiveness: " + meg.destructiveness + ". An expert at blowing stuff up.");
 
 
         //initializes new wizard
         Wizard corbett = new Wizard();
         //assign values to properties
         corbett.name = "Corbett";
-        corbett.strength = 60;
-        corbett.defense = 50;
-        corbett.intelligence = 60;
+        corbett.selfRestraint = 60;
+        corbett.senseOfMorals = 50;
+        corbett.destructiveness = 60;
 
         //print out description using properties
-        System.out.println("This wizard's name is " + corbett.name + ". Strength: "+ corbett.strength + ". Defense: " + corbett.defense +
-                ". Intelligence: " + corbett.intelligence + ". In the wrong job.");
+        System.out.println("This wizard's name is " + corbett.name + ". Self-Restraint: "+ corbett.selfRestraint + ". Sense of Morality: " + corbett.senseOfMorals +
+                ". Destructiveness: " + corbett.destructiveness + ". In the wrong job.");
 
 
         //initializes new cat
         Cat mukluk = new Cat();
         //assign values to properties
         mukluk.name = "Mukluk";
-        mukluk.strength = 7;
-        mukluk.defense = 8;
+        mukluk.clawStrength = 7;
+        mukluk.jumpLength = 8;
         mukluk.intelligence = 3;
 
         //print out description using properties
-        System.out.println("This cat's name is " + mukluk.name + ". Strength: "+ mukluk.strength + ". Defense: " + mukluk.defense +
+        System.out.println("This cat's name is " + mukluk.name + ". Claw Strength: "+ mukluk.clawStrength + ". Length of Jump: " + mukluk.jumpLength +
                 ". Intelligence: " + mukluk.intelligence + ". A housecat that follows the group around.");
 
 
@@ -110,64 +110,64 @@ public class Main {
         Cat pepper = new Cat();
         //assign values to properties
         pepper.name = "Pepper";
-        pepper.strength = 30;
-        pepper.defense = 30;
+        pepper.clawStrength = 30;
+        pepper.jumpLength = 30;
         pepper.intelligence = 10;
 
         //print out description using properties
-        System.out.println("This cat's name is " + pepper.name + ". Strength: "+ pepper.strength + ". Defense: " + pepper.defense +
+        System.out.println("This cat's name is " + pepper.name + ". Claw Strength: "+ pepper.clawStrength + ". Length of Jump: " + pepper.jumpLength +
                 ". Intelligence: " + pepper.intelligence + ". 'Biggest housecat I've ever seen' - Jack.");
 
 
 
         //assign new values to properties
         jason.strength = 120;
-        jason.defense = 70;
-        jason.intelligence = 25;
+        jason.axeMastery = 70;
+        jason.intelligenceQuota = 25;
 
         //print out description using properties
-        System.out.println("This fighter's name is " + jason.name + ". Strength: "+ jason.strength + ". Defense: " + jason.defense +
-                ". Intelligence: " + jason.intelligence + ". Really excels in power.");
+        System.out.println("This fighter's name is " + jason.name + ". Strength: "+ jason.strength + ". Axe Mastery: " + jason.axeMastery +
+                ". Intelligence Quota: " + jason.intelligenceQuota + ". Really excels in power.");
 
 
         //assign new values to properties
-        caine.strength = 30;
-        caine.defense = 80;
-        caine.intelligence = 70;
+        caine.brawniness = 30;
+        caine.purity = true;
+        caine.healingPower = 70;
 
 
         //print out description using properties
-        System.out.println("This monk's name is " + caine.name + ". Strength: "+ caine.strength + ". Defense: " + caine.defense +
-                ". Intelligence: " + caine.intelligence + ". Can take several hits.");
+        System.out.println("This monk's name is " + caine.name + ". Brawniness: "+ caine.brawniness + ". Purity: " + caine.purity +
+                ". Healing Power: " + caine.healingPower + ". Can take several hits.");
 
 
         //assign new values to properties
-        danny.strength = 30;
-        danny.defense = 60;
-        danny.intelligence = 100;
+        danny.resistance = 30;
+        danny.armorRating = 60;
+        danny.movementSpeed = 100;
 
         //print out description using properties
-        System.out.println("This thief's name is " + danny.name + ". Strength: "+ danny.strength + ". Defense: " + danny.defense +
-                ". Intelligence: " + danny.intelligence + ". Likes planning heists and sieges.");
+        System.out.println("This thief's name is " + danny.name + ". Resistance: "+ danny.resistance + ". Armor Rating: " + danny.armorRating +
+                ". Movement Speed: " + danny.movementSpeed + ". Likes planning heists and sieges.");
 
 
         //assign new values to properties
-        corbett.strength = 80;
-        corbett.defense = 80;
-        corbett.intelligence = 80;
+        corbett.selfRestraint = 80;
+        corbett.senseOfMorals = 80;
+        corbett.destructiveness = 80;
 
         //print out description using properties
-        System.out.println("This wizard's name is " + corbett.name + ". Strength: "+ corbett.strength + ". Defense: " + corbett.defense +
-                ". Intelligence: " + corbett.intelligence + ". Casts 'fist'.");
+        System.out.println("This wizard's name is " + corbett.name + ". Self-Restraint: "+ corbett.selfRestraint + ". Sense of Morality: " + corbett.senseOfMorals +
+                ". Destructiveness: " + corbett.destructiveness + ". Master of bare-knuckle magic; casts 'fist'.");
 
 
         //assign new values to properties
-        pepper.strength = 40;
-        pepper.defense = 40;
+        pepper.clawStrength = 40;
+        pepper.jumpLength = 40;
         pepper.intelligence = 15;
 
         //print out description using properties
-        System.out.println("This cat's name is " + pepper.name + ". Strength: "+ pepper.strength + ". Defense: " + pepper.defense +
+        System.out.println("This cat's name is " + pepper.name + ". Claw Strength: "+ pepper.clawStrength + ". Length of Jump: " + pepper.jumpLength +
                 ". Intelligence: " + pepper.intelligence + ". 'I don't think this is actually a cat.' - Jack.");
 
 

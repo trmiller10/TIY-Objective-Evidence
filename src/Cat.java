@@ -4,9 +4,9 @@ public class Cat{
     //creates a string property 'name'
     public String name = "";
     //creates an integer property 'defense' which represents survivability
-    public int defense = 0;
+    public int clawStrength = 0;
     //creates an integer property 'strength' which represents martial prowess
-    public int strength = 0;
+    public int jumpLength = 0;
     //creates an integer property 'intelligence' which represents magical prowess
     public int intelligence = 0;
 }

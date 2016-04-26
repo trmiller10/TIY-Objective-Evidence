@@ -5,8 +5,8 @@ public class Fighter {
     //creates an integer property 'strength' which represents martial prowess
     public int strength = 0;
     //creates an integer property 'defense' which represents survivability
-    public int defense = 0;
+    public int axeMastery = 0;
     //creates an integer property 'intelligence' which represents magical prowess
-    public int intelligence = 0;
+    public int intelligenceQuota = 0;
 
 }
